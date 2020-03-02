@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image in text with background-clip: text</title>
+</head>
+<style>
+  body { font-size: 2em; }
+  h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    background: url(background.png) center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0 auto;
+  }
+  p, h1 {
+    text-align: center;
+  }
+</style>
+<body>
+  <h1>PICTURE THIS!</h1>
+  <p>Firefox, Chrome and Safari support the unofficial<br><code>-webkit-background-clip: text;</code> but also add<br><code>background-clip: text;</code> for future-proofing</p>
+</body>
+</html>
