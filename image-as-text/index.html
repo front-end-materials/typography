@@ -6,7 +6,7 @@
   <title>Image in text with background-clip: text</title>
 </head>
 <style>
-  body { font-size: 2em; }
+  body { font-size: 2em; background-color: #999; }
   h1 {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 4em;
@@ -16,6 +16,7 @@
     background-clip: text;
     color: transparent;
     margin: 0 auto;
+    text-shadow: 1px 1px 2px black #333;
   }
   p, h1 {
     text-align: center;
@@ -23,6 +24,6 @@
 </style>
 <body>
   <h1>PICTURE THIS!</h1>
-  <p>Firefox, Chrome and Safari support the unofficial<br><code>-webkit-background-clip: text;</code> but also add<br><code>background-clip: text;</code> for future-proofing</p>
+  <p>Firefox, Chrome and Safari support the unofficial<br><code>-webkit-background-clip: text;</code> but also add<br><code>background-clip: text;</code> for <a href="https://caniuse.com/#search=background-clip">future browser support</a></p>
 </body>
 </html>

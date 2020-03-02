@@ -12,4 +12,4 @@ h1 {
 }
 ```
 
-For now, you need the `-webkit` prefix, but be sure to add `background-clip: text;` for the future.
+For now, you need the `-webkit` prefix, but be sure to add `background-clip: text;` for [future browser support](https://caniuse.com/#search=background-clip).
