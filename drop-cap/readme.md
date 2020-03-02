@@ -1,6 +1,6 @@
-# A drop initial capital letter with 
+# A drop initial capital letter with `::first-letter`
 
-this uses the following essential CSS (see the .html file for more styling) in a `.dropcap` class that can be applied to any paragrpah or other text block (e.g. `blockquote`):
+this uses the following essential CSS (see the .html file for more styling) in a `.dropcap` *class* that can be applied to any paragraph or other text block (e.g. `blockquote`):
 
 ```css
 .dropcap::first-letter {
