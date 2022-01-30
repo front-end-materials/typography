@@ -6,13 +6,13 @@
   <title>Image in text with background-clip: text</title>
 </head>
 <style>
-  body { font-size: 2em; background-color: #999; }
+  body { font-size: 1.5em; color: #aaa; background-color: #222; }
+  code { color: #9a9; }
   h1 {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    font-size: 4em;
-    background: url(background.png) center;
+    font-size: 2.75em;
+    background: url(background.jpg) center;
     background-size: cover;
-    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     margin: 0 auto;
@@ -20,9 +20,18 @@
   p, h1 {
     text-align: center;
   }
+  @media (min-width: 910px) {
+    body {
+      font-size: 2em;
+    }
+    h1 {
+      font-size: 5em;
+    }
+  }
 </style>
 <body>
   <h1>PICTURE THIS!</h1>
-  <p>Firefox, Chrome and Safari support the unofficial<br><code>-webkit-background-clip: text;</code> but also add<br><code>background-clip: text;</code> for <a href="https://caniuse.com/#search=background-clip">future browser support</a></p>
+  <p>Background image inside text</p>
+  <p>See the <code>h1</code> styles for <code>background-clip: text;</code></p>
 </body>
 </html>
